@@ -1,82 +1,82 @@
 <Chart>
-<section name="Speed">
-<new>
-<bike>Kawasaki Ninja H2R</bike>
-<engine>998 cc</engine>
-<price>50,000</price>
-</new>
-<new>
-<bike>BMW S1000RR<bike>
-<engine>999 cc</engine>
-<price>20,000</price>
-</new>
-<new eletric="true">
-<bike>LIGHTNING LS-218<bike>
-<price>38,888</price>
-</new>
-</section>
-<section name="naked">
-<new>
-<bike>Ducati Monster 1200 S<bike>
-<engine>937cc</engine>
-<price>14,895</price>
-</new>
-<new>
-<bike>Yamaha MT-10 SP<bike>
-<engine>900cc</engine>
-<price>15,052</price>
-</new>
-<new eletric="true">
-<bike>Harley-Davidson Spins<bike>
-<price>15,000</price>
-</new>
-</section>
-<section name="cruisers">
-<new>
-<bike>Honda Rebel 500<bike>
-<engine>500cc</engine>
-<price>12.000</price>
-</new>
-<new>
-<bike>Kawasaki Vulcan S<bike>
-<engine>700cc</engine>
-<price>14.000</price>
-</new>
-<new eletric="true">
-<bike>Evoke 6061<bike>
-<price>10.00</price>
-</new>
-</section>
-<section name="dual-purpose">
-<new>
-<bike>Kawasaki KLR650<bike>
-<engine>200cc</engine>
-<price>9.000</price>
-</new>
-<new>
-<bike>Honda XR650L<bike>
-<engine>200cc</engine>
-<price>6.000</price>
-</new>
-<new eletric="true">
-<bike>The Stark Varg<bike>
-<price>10.000</price>
-</new>
-</section>
-<section name="touring">
-<new>
-<bike>Indian Challenger<bike>
-<engine>1,768cc</engine>
-<price>20.000</price>
-</new>
-<new>
-<bike>K1600 Grand America<bike>
-<engine>1,600cc</engine>
-<price>15.000</price>
-</new>
-<new eletric="true">
-<bike>Storm wave<bike>
-<price>18.000</price>
-</new>
-</section>
+    <section name="Speed">
+        <new>
+           <bike>Kawasaki Ninja H2R</bike>
+           <engine>998 cc</engine>
+           <price>50,000</price>
+        </new>
+        <new>
+            <bike>BMW S1000RR</bike>
+            <engine>999 cc</engine>
+            <price>20,000</price>
+        </new>
+        <new eletric="true">
+            <bike>LIGHTNING LS-218</bike>
+            <price>38,888</price>
+        </new>
+    </section>
+    <section name="naked">
+        <new>
+            <bike>Ducati Monster 1200 S</bike>
+            <engine>937cc</engine>
+            <price>14,895</price>
+        </new>
+        <new>
+            <bike>Yamaha MT-10 SP</bike>
+            <engine>900cc</engine>
+            <price>15,052</price>
+        </new>
+        <new eletric="true">
+            <bike>Harley-Davidson Spins</bike>
+            <price>15,000</price>
+        </new>
+    </section>
+    <section name="cruisers">
+        <new>
+            <bike>Honda Rebel 500</bike>
+            <engine>500cc</engine>
+            <price>12.000</price>
+        </new>
+        <new>
+            <bike>Kawasaki Vulcan S</bike>
+            <engine>700cc</engine>
+            <price>14.000</price>
+        </new>
+        <new eletric="true">
+            <bike>Evoke 6061</bike>
+            <price>10.00</price>
+        </new>
+    </section>
+    <section name="dual-purpose">
+        <new>
+            <bike>Kawasaki KLR650</bike>
+            <engine>200cc</engine>
+            <price>9.000</price>
+        </new>
+        <new>
+            <bike>Honda XR650L</bike>
+            <engine>200cc</engine>
+            <price>6.000</price>
+        </new>
+        <new eletric="true">
+            <bike>The Stark Varg</bike>
+            <price>10.000</price>
+        </new>
+    </section>
+    <section name="touring">
+        <new>
+            <bike>Indian Challenger</bike>
+            <engine>1,768cc</engine>
+            <price>20.000</price>
+        </new>
+        <new>
+            <bike>K1600 Grand America</bike>
+            <engine>1,600cc</engine>
+            <price>15.000</price>
+        </new>
+        <new eletric="true">
+            <bike>Storm wave</bike>
+            <price>18.000</price>
+        </new>
+    </section>
 </Chart>
