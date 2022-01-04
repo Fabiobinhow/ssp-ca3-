@@ -2,13 +2,13 @@
     <section name="Speed">
         <new>
            <bike>Kawasaki Ninja H2R</bike>
-           
            <price>50,000</price>
+           <engine>998 cc</engine>
         </new>
         <new>
             <bike>BMW S1000RR</bike>
-            
             <price>20,000</price>
+            <engine>997 cc</engine>
         </new>
         <new eletric="true">
             <bike>LIGHTNING LS-218</bike>
@@ -18,13 +18,13 @@
     <section name="naked">
         <new>
             <bike>Ducati Monster 1200 S</bike>
-            
             <price>14,895</price>
+            <engine>998 cc</engine>
         </new>
         <new>
             <bike>Yamaha MT-10 SP</bike>
-            
             <price>15,052</price>
+            <engine>998 cc</engine>
         </new>
         <new eletric="true">
             <bike>Harley-Davidson Spins</bike>
@@ -36,11 +36,13 @@
             <bike>Honda Rebel 500</bike>
             
             <price>12.000</price>
+            <engine>998 cc</engine>
         </new>
         <new>
             <bike>Kawasaki Vulcan S</bike>
             
             <price>14.000</price>
+            <engine>998 cc</engine>
         </new>
         <new eletric="true">
             <bike>Evoke 6061</bike>
@@ -52,11 +54,13 @@
             <bike>Kawasaki KLR650</bike>
             
             <price>9.000</price>
+            <engine>998 cc</engine>
         </new>
         <new>
             <bike>Honda XR650L</bike>
             
             <price>6.000</price>
+            <engine>998 cc</engine>
         </new>
         <new eletric="true">
             <bike>The Stark Varg</bike>
@@ -68,11 +72,13 @@
             <bike>Indian Challenger</bike>
             
             <price>20.000</price>
+            <engine>998 cc</engine>
         </new>
         <new>
             <bike>K1600 Grand America</bike>
             
             <price>15.000</price>
+            <engine>998 cc</engine>
         </new>
         <new eletric="true">
             <bike>Storm wave</bike>

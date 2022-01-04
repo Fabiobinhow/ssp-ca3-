@@ -7,12 +7,13 @@
                     <th>Select</th>
                     <th>Bike</th>
                     <th>Price</th>
+                    <th>engine</th>
                 </tr>
             </thead>
             <tbody>
                 <xsl:for-each select="//section">
                     <tr>
-                        <td colspan="3">
+                        <td colspan="5">
                         <xsl:value-of select="@name" />
                         </td>
                 </tr>
@@ -29,6 +30,9 @@
                         </td>
                         <td align="right">
                             <xsl:value-of select="price" />
+                        </td>
+                            <td align="right">
+                            <xsl:value-of select="engine" />
                         </td>
                     </tr>
                 </xsl:for-each>
