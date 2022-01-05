@@ -1,38 +1,35 @@
 <?xml version="1.0"?> 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:template match="/">
-        <table id="Chart" border="1" class="indent">
-            <thead>
+<xsl:template match="/">
+    <table id="Chart" border="1" class="indent">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Engine</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <xsl:for-each select="//section">
                 <tr>
-                    <th>Select</th>
-                    <th>Bike</th>
-                    <th>Price</th>
-                    <th>engine</th>
-                </tr>
-            </thead>
-            <tbody>
-                <xsl:for-each select="//section">
-                    <tr>
-                        <td colspan="5">
+                    <td colspan="4">
                         <xsl:value-of select="@name" />
-                        </td>
+                    </td>
                 </tr>
-                <xsl:for-each select="new">
-                    <tr id="{position()}">
-                        <xsl:attribute name="eletric">
-                            <xsl:value-of select="boolean(@eletric)" />
-                        </xsl:attribute>
-                        <td align="center">
-                            <input name="bike0" type="checkbox" />
-                        </td>
+                <xsl:for-each select="entry">
+                    <tr>
                         <td>
-                            <xsl:value-of select="bike" />
+                            <xsl:value-of select="name" />
+                        </td>
+                        <td align="right">
+                            <xsl:value-of select="category" />
+                        </td>
+                        <td align="right">
+                            <xsl:value-of select="engine" />
                         </td>
                         <td align="right">
                             <xsl:value-of select="price" />
-                        </td>
-                            <td align="right">
-                            <xsl:value-of select="engine" />
                         </td>
                     </tr>
                 </xsl:for-each>
