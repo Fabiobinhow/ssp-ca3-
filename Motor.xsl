@@ -23,7 +23,7 @@
                             <xsl:value-of select="name" />
                         </td>
                         <td align="right">
-                            <xsl:value-of select="category" />
+                            <xsl:value-of select="Category" />
                         </td>
                         <td align="right">
                             <xsl:value-of select="engine" />
